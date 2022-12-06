@@ -1,7 +1,136 @@
-div {
-    background-color: aquamarine;
-    font-size: 38px;
-    font-weight: bolder;
-    color: blue;
-
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.87);
 }
+
+div {
+    color: blue;
+    font-size:larger;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+.header {
+    padding: 60px 0;
+    background-color: rgb(199, 199, 206);
+}
+
+.header__logo-img {
+    height: 200px;
+    align-items: center;
+  }
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    flex-shrink: 0;
+    display: block;
+    font-size: larger;
+    font-weight: 700;
+    
+}
+
+.header__menu-list {
+    display:block
+}
+.header__menu-link {
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 55px;
+    color: black;
+    text: decoration thickness 12px;
+    transition: color 0.15s;
+}
+
+
+.header__menu-link:hover {
+    color: #0096A7;
+  }
+img {
+    height: auto;
+    width: 400px;
+}
+
+.list {
+   color: brown;
+   font-size: 30px;
+}
+
+  
+.hero__button {
+    margin-top: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border: none;
+  
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #0096A7;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
+    transition: background-color 0.15s;
+    cursor: pointer;
+  }
+  
+  .hero__button:hover {
+    background-color: #02aabd;
+  }
+
+.body__menu-list {
+    display:flex:
+}
+.body__menu-link {
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 55px;
+    color: black;
+    text text-decoration-skip-ink: 12px;
+    transition: color 0.15s;
+}
+
+.body{
+    padding: 60px 0;
+    background-color: rgb(168, 168, 177);
+}
+
+.body__container {
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    margin-top: 64px;
+    padding: 47px 0;
+    background: rgba(66, 74, 87, 0.5);
+  }
+  
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer__copyright {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFFFFF;
+  }
